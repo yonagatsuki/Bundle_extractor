@@ -11,11 +11,12 @@ python -m pip install UnityPy texture2ddecoder
 Extract one bundle:
 
 ```powershell
-python bundle_extractor.py "F:\path\file.bundle" -o "F:\path\output"
+python bundle_extractor.py "path/to/file.bundle" -o "path/to/output"
 ```
 
 Extract all bundles in a folder:
 
 ```powershell
-python bundle_extractor.py "F:\path\bundles" -o "F:\path\output" -r
+python bundle_extractor.py "path/to/bundles" -o "path/to/output" -r
 ```
+
